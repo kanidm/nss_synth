@@ -1,0 +1,21 @@
+[package]
+name = "nss_synth"
+version = "0.1.0"
+edition = "2021"
+authors = ["William Brown <william@blackhats.net.au>"]
+license = "MPL-2.0"
+description = "NSS uid/gid synth"
+homepage = "https://github.com/kanidm/nss_synth/"
+repository = "https://github.com/kanidm/nss_synth/"
+
+[lib]
+name = "nss_synth"
+crate-type = [ "cdylib" ]
+path =  "src/lib.rs"
+
+[dependencies]
+libnss = "0.4"
+libc = "0.2.0"
+paste = "1.0"
+lazy_static = "1.3"
+
