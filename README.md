@@ -5,6 +5,19 @@ NSS Synth is a module that synthesises uids/gids into real groups. This means th
 a container with bare uids/gids, these are able to resolve to a concrete user name and group name
 so that calls like getpwnam() function correctly.
 
+## Why might you want this?
+
+Containers! When you launch a container with a random uid/gid such as:
+
+```
+docker -u 1400:1400 ....
+```
+
+This uid/gid number is what the containers process will run as, and many programs expect these to
+resolve to names or groups via the nsswitch calls of the platform. Rather than defining users
+and messing about sharing /etc/password or other things, this module can be built into your
+container image allowing them to run with bare uid/gid's.
+
 ## Install
 
 ```
