@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kanidm/nss_synth/meme.jpg" width="50%" height="auto" />
+  <img src="https://github.com/kanidm/nss_synth/blob/main/meme.jpg" width="50%" height="auto" />
 </p>
 
 # NSS Synth
