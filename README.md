@@ -1,4 +1,8 @@
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kanidm/nss_synth/meme.jpg" width="50%" height="auto" />
+</p>
+
 # NSS Synth
 
 NSS Synth is a module that synthesises uids/gids into real groups. This means that when you have
